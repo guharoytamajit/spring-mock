@@ -44,5 +44,6 @@ public class EmployeeSvcTest {
 @Before
 public void setup() {
         MockitoAnnotations.initMocks(this);
+	//use MockitoAnnotations.openMocks(this) as initMocks() is deprecated
 }
 }
